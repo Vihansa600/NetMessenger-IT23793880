@@ -1,0 +1,89 @@
+IE3010 NETWORK PROGRAMMING
+NETMESSENGER - AI PROMPT LOG
+
+Student Registration Number: IT23793880
+
+PROMPT 1
+
+I need to implement the IE3010 NetMessenger TCP client-server assignment.
+Please explain the requirements and the implementation steps simply.
+
+PURPOSE
+
+Understanding the assignment requirements and planning the implementation.
+
+PROMPT 2
+
+Calculate the required personalised port, NID, source filenames,
+log filename and storage path using registration number IT23793880.
+
+PURPOSE
+
+Ensuring that all mandatory personalisation requirements were correctly
+derived from the registration number.
+
+PROMPT 3
+
+Help me implement a multi-client TCP server using pthreads with
+REGISTER, LIST, BCAST, PMSG and QUIT commands.
+
+PURPOSE
+
+Developing the initial concurrent client-server functionality.
+
+PROMPT 4
+
+Help me add JOIN, LEAVE, ROOMS and RMSG room functionality to the
+NetMessenger server.
+
+PURPOSE
+
+Implementing the required chat-room functionality.
+
+PROMPT 5
+
+Help me implement SENDFILE with exact file-size handling and the
+personalised storage path.
+
+PURPOSE
+
+Implementing file sharing and verifying the required personalised
+storage structure.
+
+PROMPT 6
+
+Help me create and test Makefile_3880 and README.md for the
+personalised NetMessenger project.
+
+PURPOSE
+
+Preparing the project build system and documentation.
+
+VALIDATION AND MODIFICATION
+
+AI-generated suggestions were not accepted blindly. The implementation
+was compiled and tested manually in the CentOS environment.
+
+The following functionality was tested:
+
+* Client registration
+* User listing
+* Broadcast messaging
+* Private messaging
+* Joining rooms
+* Listing rooms
+* Room messaging
+* Leaving rooms
+* File transfer
+* Personalised file storage
+* Server logging
+* Multiple TCP client connections
+
+Errors encountered during development were investigated and corrected
+through compilation, execution and testing.
+
+The final implementation was tested using the personalised values:
+
+Registration: IT23793880
+Port: 9880
+NID: 7938

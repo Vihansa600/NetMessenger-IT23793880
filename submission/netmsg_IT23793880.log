@@ -1,0 +1,32 @@
+[Tue Oct  6 13:58:53 2026
+] Server started
+[Tue Oct  6 14:17:36 2026
+] User registered: vihansa
+[Tue Oct  6 14:20:48 2026
+] Broadcast message sent
+[Tue Oct  6 14:23:49 2026
+] User registered: testuser
+[Tue Oct  6 14:25:44 2026
+] Private message sent
+[Tue Oct  6 14:45:02 2026
+] User registered: vihansa2
+[Tue Oct  6 14:48:08 2026
+] User registered: testuser2
+[Tue Oct  6 14:48:55 2026
+] Private message sent
+[Tue Oct  6 15:09:14 2026
+] Server started
+[Tue Oct  6 15:11:35 2026
+] User registered: roomuser
+[Tue Oct  6 15:12:09 2026
+] User joined room: general
+[Tue Oct  6 15:14:27 2026
+] Room message sent
+[Tue Oct  6 16:36:52 2026
+] Server started
+[Tue Oct  6 16:39:01 2026
+] User registered: sender
+[Tue Oct  6 16:40:39 2026
+] User registered: receiver
+[Tue Oct  6 16:41:59 2026
+] File received: sender=sender target=receiver filename=test.txt size=43

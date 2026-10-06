@@ -1,0 +1,87 @@
+IE3010 NETWORK PROGRAMMING
+NETMESSENGER - REFLECTION
+
+Student Registration Number: IT23793880
+
+1. IMPLEMENTATION EXPERIENCE
+
+Developing the NetMessenger application helped me understand how
+TCP client-server communication works in a practical environment.
+I implemented a multi-client server using pthreads so that several
+clients can connect to the server at the same time.
+
+The project included user registration, user listing, broadcast
+messaging, private messaging and room-based communication.
+
+2. CHALLENGES
+
+One of the main challenges was handling multiple clients while
+allowing messages to be received independently. A receiving thread
+was therefore used by the client so that incoming messages could be
+displayed while the user continued entering commands.
+
+Another challenge was implementing file transfer. Unlike normal text
+commands, the SENDFILE command requires the server to receive the
+exact number of raw file bytes specified by the sender.
+
+Personalisation was also important because the port, NID, filenames,
+log file and storage directory had to be derived from the registration
+number.
+
+3. TESTING
+
+The application was tested manually using multiple client terminals.
+
+The following functions were tested:
+
+REGISTER
+LIST
+BCAST
+PMSG
+JOIN
+ROOMS
+RMSG
+LEAVE
+SENDFILE
+QUIT
+
+A test file was successfully transferred and stored using the required
+personalised directory structure.
+
+4. USE OF AI
+
+AI assistance was used during development to understand programming
+concepts, identify implementation approaches and troubleshoot errors.
+
+The generated suggestions were compiled and tested in the CentOS
+environment. When errors occurred, the code was modified and tested
+again until the required functionality worked.
+
+This process helped me understand the relationship between sockets,
+threads, client-server communication, protocol commands and file
+transfer.
+
+5. LESSONS LEARNED
+
+I learned how TCP sockets can be used to create a client-server
+application and how pthreads can support multiple simultaneous
+connections.
+
+I also learned that protocol implementation requires careful
+handling of command formats, responses and data framing.
+
+The project improved my understanding of Linux compilation, Makefiles,
+network programming, logging and file-system operations.
+
+6. FINAL REFLECTION
+
+Overall, the project provided practical experience in developing a
+network application from the command-line environment. Testing the
+application with multiple clients helped me identify problems that
+were not visible when using only one client.
+
+The final implementation was tested using the personalised values:
+
+Registration: IT23793880
+Port: 9880
+NID: 7938
